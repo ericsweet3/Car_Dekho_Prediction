@@ -1,16 +1,5 @@
 |--- year <= 2016.50
-|   |--- transmission_Manual <= 0.50
-|   |   |--- fuel_Diesel <= 0.50
-|   |   |   |--- seller_type_Individual <= 0.50
-|   |   |   |   |--- class: 600,000+
-|   |   |   |--- seller_type_Individual >  0.50
-|   |   |   |   |--- class: 600,000+
-|   |   |--- fuel_Diesel >  0.50
-|   |   |   |--- made_in_Unknown <= 0.50
-|   |   |   |   |--- class: 600,000+
-|   |   |   |--- made_in_Unknown >  0.50
-|   |   |   |   |--- class: 400,000 - 600,000
-|   |--- transmission_Manual >  0.50
+|   |--- transmission_Automatic <= 0.50
 |   |   |--- fuel_Diesel <= 0.50
 |   |   |   |--- seller_type_Trustmark Dealer <= 0.50
 |   |   |   |   |--- class: 200,000 - 400,000
@@ -21,6 +10,17 @@
 |   |   |   |   |--- class: 400,000 - 600,000
 |   |   |   |--- year >  2014.50
 |   |   |   |   |--- class: 600,000+
+|   |--- transmission_Automatic >  0.50
+|   |   |--- fuel_Diesel <= 0.50
+|   |   |   |--- seller_type_Individual <= 0.50
+|   |   |   |   |--- class: 600,000+
+|   |   |   |--- seller_type_Individual >  0.50
+|   |   |   |   |--- class: 600,000+
+|   |   |--- fuel_Diesel >  0.50
+|   |   |   |--- made_in_Unknown <= 0.50
+|   |   |   |   |--- class: 600,000+
+|   |   |   |--- made_in_Unknown >  0.50
+|   |   |   |   |--- class: 400,000 - 600,000
 |--- year >  2016.50
 |   |--- transmission_Automatic <= 0.50
 |   |   |--- fuel_Diesel <= 0.50
@@ -40,7 +40,7 @@
 |   |   |   |--- km_driven >  52630.50
 |   |   |   |   |--- class: 600,000+
 |   |   |--- seller_type_Individual >  0.50
-|   |   |   |--- fuel_Diesel <= 0.50
+|   |   |   |--- fuel_Petrol <= 0.50
 |   |   |   |   |--- class: 600,000+
-|   |   |   |--- fuel_Diesel >  0.50
+|   |   |   |--- fuel_Petrol >  0.50
 |   |   |   |   |--- class: 600,000+
